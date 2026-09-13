@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <string>
 
-class Plant;   // forward declaration
+class Plant;
 
 class Zombie {
 protected:
