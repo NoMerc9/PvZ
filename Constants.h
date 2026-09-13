@@ -25,8 +25,8 @@ constexpr int COST_WALLNUT = 25;
 constexpr int COST_SPIKE = 50;
 
 // Масштаб спрайтов
-constexpr float PLANT_SCALE = 0.9f;
-constexpr float ZOMBIE_SCALE = 0.9f;
+constexpr float PLANT_SCALE = 0.7f;
+constexpr float ZOMBIE_SCALE = 0.6f;
 
 // Шипы
 constexpr int SPIKE_MAX_HITS = 15;
