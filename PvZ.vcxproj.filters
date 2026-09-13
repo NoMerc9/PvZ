@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e219e3e8-8a2b-4df9-b96a-edbf5942fbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{4aa8a911-dc0f-47ee-8bad-f94a83c79948}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Peashooter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunflower.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalZombie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ConeZombie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BucketZombie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Wallnut.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Spike.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenDoorZombie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sun.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalZombie.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ConeZombie.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunflower.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Peashooter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BucketZombie.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Wallnut.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Spike.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenDoorZombie.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\zombie_cone.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\pea.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\peashooter.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\sun.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\sunflower.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\zombie.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\zombie_bucket.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\wallnut.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\font.ttf">
+      <Filter>assets</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
