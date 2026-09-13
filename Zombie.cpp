@@ -10,7 +10,6 @@ Zombie::Zombie(sf::Vector2f pos, int hp, float speed,
 {
     sf::FloatRect bounds = sprite.getLocalBounds();
 
-    // ✅ Origin — центр спрайта (как было раньше)
     sprite.setOrigin({ bounds.size.x / 2.0f, bounds.size.y / 2.0f });
     sprite.setPosition(pos);
 
@@ -33,7 +32,7 @@ void Zombie::update(float dt) {
     float sway = 4.0f * std::sin(t * 5.0f);
     sprite.setRotation(sf::degrees(sway));
 
-    sprite.setPosition(position);   // ← без сдвига Y
+    sprite.setPosition(position);
 
     position.x -= speed * dt;
     if (hp <= 0) alive = false;
