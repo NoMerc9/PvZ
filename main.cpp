@@ -7,7 +7,7 @@
 
 int main() {
 #ifdef _WIN32
-    SetProcessDPIAware();   // отключаем DPI-масштабирование
+    SetProcessDPIAware();  
 #endif
 
     Game game;
